@@ -592,6 +592,9 @@ ul.dropdown-menu li {
 
 .banner-content {
   padding-right: 30px;
+  float:left;
+  text-align: left;
+  
 }
 
 .banner-content .btn {
