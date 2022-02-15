@@ -602,6 +602,9 @@ ul.dropdown-menu li {
   color: #fff;
   font-weight: 700;
   line-height: 50px;
+  float: left;
+  text-align: left;
+  margin-left: 0;
 }
 
 .banner-content .subtitle {
@@ -1692,8 +1695,15 @@ BLOG SINGLE
   /*--------------------
      BANNER
     -----------------*/
-  .banner-content .banner-title {
-    line-height: 37px;
+  .banner-content{
+    line-height: 50px;
+  }
+
+  .banner-tittle{
+    text-align: left;
+    line-height: 50px;
+    padding-left: 170px;
+    
   }
   .banner-content p {
     font-size: 16px;
