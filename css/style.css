@@ -782,6 +782,12 @@ INner Pages
   margin-right: 10px;
 }
 
+.choose-us p{
+  justify-content: center;
+  text-align: center;
+  padding-left: 120px;
+}
+
 /* ----------------------
 ABOUT PAGE
 -------------------------*/
