@@ -578,6 +578,139 @@ ul.dropdown-menu li {
   overflow-y: auto;
   max-height: calc(100vh - 100px);
 }
+/* slider area */
+
+.slider{
+  position: relative;
+width: 100%;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+}
+.slider .imgBx{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* padding: 100px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  z-index: 1;
+}
+.slider input[type="radio"]:checked +.imgBx{
+  z-index: 10;
+}
+
+.slider .imgBx img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:150%;
+  height: 100vh;
+  object-fit:cover;
+}
+.slider .imgBx .content{
+  position: relative;
+  text-align: center;
+  max-width: 800px;
+}
+.slider .imgBx .content h3{
+  padding-top: 250px;
+  font-size: 2.5em;
+  line-height: 1em;
+  color: #f2f2f2;
+}
+.slider .imgBx .content p{
+  color: #f2f2f2;
+}
+.slider input[type="radio"]{
+  position: relative;
+  z-index: 1000;
+  margin: 5px;
+  margin-bottom: 40px;
+  outline: none;
+  cursor: pointer;
+}
+
+/* ..................... */
+
+
+/* .slider-box {
+    width     : 90%;
+    max-height: 90vh;
+    position  : relative;
+    overflow  : hidden;
+    margin    : 30px auto;
+}
+
+#slider {
+    width     : 100%;
+    display   : flex;
+    transition: 0.7s;
+}
+
+#slider img {
+    width: 100%;
+}
+
+.indicators {
+    position : absolute;
+    left     : 50%;
+    bottom   : 20px;
+    transform: translateX(-50%);
+}
+
+.indicators span {
+    display      : inline-block;
+    width        : 15px;
+    height       : 15px;
+    border-radius: 50%;
+    background   : rgba(255, 255, 255, 0.5);
+    cursor       : pointer;
+}
+
+.active {
+    background: #ffff !important;
+} */
+	
+	
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*------------------------------------
  BANNER AREA
